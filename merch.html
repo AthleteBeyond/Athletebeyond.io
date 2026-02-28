@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merch — AthleteBeyond</title>
+  <link rel="stylesheet" href="styling.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .product-card {
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .product-card:hover .product-image {
+      transform: scale(1.05);
+    }
+    .product-image {
+      overflow: hidden;
+      height: 300px;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+    .product-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .product-name {
+      font-size: 1.125rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .product-price {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0e4639;
+      margin-bottom: 1rem;
+    }
+    .product-story {
+      font-size: 0.875rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+    .size-selector {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .size-selector button {
+      padding: 0.5rem 1rem;
+      border: 1px solid #e5e5e5;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .size-selector button:hover,
+    .size-selector button.active {
+      border-color: #0e4639;
+      background-color: #0e4639;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo"><a href="index.html">AthleteBeyond</a></div>
+      <ul class="nav-list">
+	   <li><a href="about.html">About</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="beyond.html">BEYOND</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="opportunities.html">Opportunities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 40vh;">
+    <div class="hero-content">
+      <h1>AthleteBeyond Merch</h1>
+      <p>Premium apparel for those who dare to go beyond.</p>
+    </div>
+  </section>
+
+  <!-- MERCH STORY -->
+  <section class="section" style="background-color: #f0ede8;">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: center;">
+        <img src="https://via.placeholder.com/500x400?text=Merch+Story" alt="Merch" style="border-radius: 12px;">
+        <div>
+          <h2>Crafted for Athletes</h2>
+          <p>
+            Our merch isn't just apparel. Each piece tells a story of discipline, excellence, and the pursuit of greatness. Designed with athletes in mind—performance meets purpose.
+          </p>
+          <p>
+            We believe in quality, sustainability, and meaningful design. Every purchase supports AthleteBeyond's mission to empower the next generation of global athletes.
+          </p>
+          <a href="#products" class="btn btn-primary" style="margin-top: 1.5rem;">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS GRID -->
+  <section class="section" id="products">
+    <div class="container">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="grid grid-3">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/400x500?text=Premium+Tee" alt="Product">
+          </div>
+          <h4 class="product-name">Go Beyond T-Shirt</h4>
+          <p class="product-story">Premium cotton tee with signature AthleteBeyond emblem.</p>
+          <div class="product-price">$45</div>
+          <div class="size-selector">
+            <button>XS</button>
+            <button class="active">S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/400x500?text=Performance+Hoodie" alt="Product">
+          </div>
+          <h4 class="product-name">Elite Performance Hoodie</h4>
+          <p class="product-story">Lightweight, breathable hoodie designed for athletes.</p>
+          <div class="product-price">$85</div>
+          <div class="size-selector">
+            <button>XS</button>
+            <button class="active">S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/400x500?text=Training+Cap" alt="Product">
+          </div>
+          <h4 class="product-name">Training Cap</h4>
+          <p class="product-story">Iconic baseball cap with adjustable fit for any athlete.</p>
+          <div class="product-price">$35</div>
+          <div class="size-selector">
+            <button class="active">One Size</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/400x500?text=Crew+Sweatshirt" alt="Product">
+          </div>
+          <h4 class="product-name">Crew Sweatshirt</h4>
+          <p class="product-story">Comfortable crew neck sweat for training or lifestyle.</p>
+          <div class="product-price">$75</div>
+          <div class="size-selector">
+            <button>XS</button>
+            <button class="active">S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/400x500?text=Track+Pants" alt="Product">
+          </div>
+          <h4 class="product-name">Track Pants</h4>
+          <p class="product-story">Sleek, performance-driven track pants for serious athletes.</p>
+          <div class="product-price">$95</div>
+          <div class="size-selector">
+            <button>XS</button>
+            <button>S</button>
+            <button class="active">M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/400x500?text=Water+Bottle" alt="Product">
+          </div>
+          <h4 class="product-name">Hydration Bottle</h4>
+          <p class="product-story">Insulated, durable bottle featuring AthleteBeyond design.</p>
+          <div class="product-price">$32</div>
+          <div class="size-selector">
+            <button class="active">One Size</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIMITED EDITIONS -->
+  <section class="section" style="background-color: #f0ede8;">
+    <div class="container">
+      <h2 class="section-title">Limited Editions</h2>
+      <p style="text-align: center; color: #666; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Exclusive drops featuring designs from AthleteBeyond's featured athletes. These are one-time releases. When they're gone, they're gone.
+      </p>
+      <div class="grid grid-2">
+        <!-- Limited Edition 1 -->
+        <div class="product-card">
+          <div style="position: relative; margin-bottom: 1rem;">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/400x500?text=Limited+Drop+1" alt="Product">
+            </div>
+            <span style="position: absolute; top: 1rem; right: 1rem; background: #e74c3c; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700;">SOLD OUT</span>
+          </div>
+          <h4 class="product-name">Alex Johnson Signature Tee</h4>
+          <p class="product-story">Exclusive design celebrating our featured football star.</p>
+          <div class="product-price">$55</div>
+          <p style="color: #999; font-size: 0.875rem;">This drop has sold out. Next drop launching soon!</p>
+        </div>
+
+        <!-- Limited Edition 2 -->
+        <div class="product-card">
+          <div style="position: relative; margin-bottom: 1rem;">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/400x500?text=Limited+Drop+2" alt="Product">
+            </div>
+            <span style="position: absolute; top: 1rem; right: 1rem; background: #0e4639; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700;">NEW</span>
+          </div>
+          <h4 class="product-name">Champions Collection Hoodie</h4>
+          <p class="product-story">Collaboration with elite athletes from across sports.</p>
+          <div class="product-price">$125</div>
+          <div class="size-selector">
+            <button>XS</button>
+            <button class="active">S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+          <button class="btn btn-primary" style="width: 100%;">Add to Cart — Limited Stock</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>AthleteBeyond</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 1rem;">
+            Empowering athletes and building culture globally. Go Beyond.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-icon">f</a>
+            <a href="#" class="social-icon">𝕏</a>
+            <a href="#" class="social-icon">in</a>
+            <a href="#" class="social-icon">📷</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="beyond.html">BEYOND</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#products">All Products</a></li>
+            <li><a href="#products">Limited Editions</a></li>
+            <li><a href="contact.html">Bulk Orders</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#cookies">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AthleteBeyond. All rights reserved. | Go Beyond. 🌍</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

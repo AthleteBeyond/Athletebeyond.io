@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opportunities — AthleteBeyond</title>
+  <link rel="stylesheet" href="styling.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo"><a href="index.html">AthleteBeyond</a></div>
+      <ul class="nav-list">
+	   <li><a href="about.html">About</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="beyond.html">BEYOND</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="opportunities.html">Opportunities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 40vh;">
+    <div class="hero-content">
+      <h1>Opportunities</h1>
+      <p>Whether you're an athlete, brand, or creator—there's a place for you here.</p>
+    </div>
+  </section>
+
+  <!-- FOR ATHLETES -->
+  <section class="section" id="athletes">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: center;">
+        <div>
+          <h2>For Athletes</h2>
+          <p>
+            AthleteBeyond provides elite athletes with a global platform to amplify their impact, secure partnerships, and build their brand beyond sport.
+          </p>
+          <h4 style="margin-top: 1.5rem; margin-bottom: 1rem;">What We Offer:</h4>
+          <ul style="list-style-position: inside; margin-bottom: 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">🌍 Global visibility and audience</li>
+            <li style="margin-bottom: 0.75rem;">📱 Content amplification across channels</li>
+            <li style="margin-bottom: 0.75rem;">🤝 Brand partnership opportunities</li>
+            <li style="margin-bottom: 0.75rem;">📸 Professional storytelling platform</li>
+            <li style="margin-bottom: 0.75rem;">🏆 Access to exclusive athlete network</li>
+            <li style="margin-bottom: 0.75rem;">💼 Business & growth mentorship</li>
+          </ul>
+          <a href="#athlete-form" class="btn btn-primary">Apply Now</a>
+        </div>
+        <img src="https://via.placeholder.com/500x400?text=For+Athletes" alt="Athletes" style="border-radius: 12px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR TEAMS & BRANDS -->
+  <section class="section" style="background-color: #f0ede8;" id="teams">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: center;">
+        <img src="https://via.placeholder.com/500x400?text=For+Teams" alt="Teams" style="border-radius: 12px;">
+        <div>
+          <h2>For Teams & Brands</h2>
+          <p>
+            Partner with AthleteBeyond to access elite talent, amplify your brand, and build meaningful connections with athletes globally.
+          </p>
+          <h4 style="margin-top: 1.5rem; margin-bottom: 1rem;">Collaboration Paths:</h4>
+          <ul style="list-style-position: inside; margin-bottom: 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">🎯 Athlete sponsorships & partnerships</li>
+            <li style="margin-bottom: 0.75rem;">📺 Content creation & co-branding</li>
+            <li style="margin-bottom: 0.75rem;">🤝 Team collaborations</li>
+            <li style="margin-bottom: 0.75rem;">📊 Data-driven athlete insights</li>
+            <li style="margin-bottom: 0.75rem;">🌐 Global athlete networks</li>
+            <li style="margin-bottom: 0.75rem;">✨ Integrated marketing campaigns</li>
+          </ul>
+          <a href="#brand-form" class="btn btn-primary">Partner With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR CREATORS & INTERNS -->
+  <section class="section" id="creators">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: center;">
+        <div>
+          <h2>For Creators & Interns</h2>
+          <p>
+            Join the AthleteBeyond team. We're always looking for passionate creators, designers, and storytellers to help amplify athlete stories worldwide.
+          </p>
+          <h4 style="margin-top: 1.5rem; margin-bottom: 1rem;">Roles & Opportunities:</h4>
+          <ul style="list-style-position: inside; margin-bottom: 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">📝 Content creators & writers</li>
+            <li style="margin-bottom: 0.75rem;">🎬 Video & multimedia producers</li>
+            <li style="margin-bottom: 0.75rem;">🎨 Graphic designers</li>
+            <li style="margin-bottom: 0.75rem;">📲 Social media managers</li>
+            <li style="margin-bottom: 0.75rem;">🔍 Research & analytics</li>
+            <li style="margin-bottom: 0.75rem;">💻 Web & technical talent</li>
+          </ul>
+          <a href="#creator-form" class="btn btn-primary">Get Involved</a>
+        </div>
+        <img src="https://via.placeholder.com/500x400?text=For+Creators" alt="Creators" style="border-radius: 12px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMS SECTION -->
+  <section class="section" style="background-color: #f0ede8;">
+    <div class="container">
+      <h2 class="section-title">Ready to Get Started?</h2>
+      
+      <div class="grid grid-3" style="gap: 3rem;">
+        <!-- ATHLETE FORM -->
+        <div id="athlete-form">
+          <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);">
+            <h3 style="margin-bottom: 1.5rem;">Athlete Application</h3>
+            <form>
+              <div class="form-group">
+                <label for="athlete-name">Full Name</label>
+                <input type="text" id="athlete-name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="athlete-sport">Sport / Discipline</label>
+                <input type="text" id="athlete-sport" placeholder="e.g., Football, Basketball, Tennis" required>
+              </div>
+              <div class="form-group">
+                <label for="athlete-country">Country</label>
+                <input type="text" id="athlete-country" placeholder="Your country" required>
+              </div>
+              <div class="form-group">
+                <label for="athlete-email">Email</label>
+                <input type="email" id="athlete-email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="athlete-bio">Brief Bio / Achievements</label>
+                <textarea id="athlete-bio" placeholder="Tell us about yourself and your achievements..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Application</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- BRAND FORM -->
+        <div id="brand-form">
+          <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);">
+            <h3 style="margin-bottom: 1.5rem;">Brand Partnership</h3>
+            <form>
+              <div class="form-group">
+                <label for="brand-name">Company Name</label>
+                <input type="text" id="brand-name" placeholder="Your company" required>
+              </div>
+              <div class="form-group">
+                <label for="brand-contact">Contact Person</label>
+                <input type="text" id="brand-contact" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <label for="brand-email">Email</label>
+                <input type="email" id="brand-email" placeholder="your@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="brand-interest">Areas of Interest</label>
+                <input type="text" id="brand-interest" placeholder="e.g., athlete sponsorship, content, events" required>
+              </div>
+              <div class="form-group">
+                <label for="brand-message">Tell Us About Your Vision</label>
+                <textarea id="brand-message" placeholder="How can we work together?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- CREATOR FORM -->
+        <div id="creator-form">
+          <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);">
+            <h3 style="margin-bottom: 1.5rem;">Creator Opportunity</h3>
+            <form>
+              <div class="form-group">
+                <label for="creator-name">Full Name</label>
+                <input type="text" id="creator-name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="creator-role">Role / Skill</label>
+                <input type="text" id="creator-role" placeholder="e.g., Content Creator, Designer, Writer" required>
+              </div>
+              <div class="form-group">
+                <label for="creator-email">Email</label>
+                <input type="email" id="creator-email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="creator-portfolio">Portfolio / Website (Optional)</label>
+                <input type="url" id="creator-portfolio" placeholder="https://yourportfolio.com">
+              </div>
+              <div class="form-group">
+                <label for="creator-message">Why Do You Want to Join AthleteBeyond?</label>
+                <textarea id="creator-message" placeholder="Tell us your story..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Apply to Join</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>AthleteBeyond</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 1rem;">
+            Empowering athletes and building culture globally. Go Beyond.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-icon">f</a>
+            <a href="#" class="social-icon">𝕏</a>
+            <a href="#" class="social-icon">in</a>
+            <a href="#" class="social-icon">📷</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="beyond.html">BEYOND</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Opportunities</h4>
+          <ul>
+            <li><a href="#athletes">For Athletes</a></li>
+            <li><a href="#teams">For Teams & Brands</a></li>
+            <li><a href="#creators">For Creators</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#cookies">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AthleteBeyond. All rights reserved. | Go Beyond. 🌍</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEYOND — Stories & Series</title>
+  <link rel="stylesheet" href="styling.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .series-filter {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .series-filter .btn {
+      padding: 0.75rem 1.5rem;
+    }
+    .series-header {
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #e5e5e5;
+    }
+    .series-header h3 {
+      color: #0e4639;
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .series-header p {
+      color: #666;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo"><a href="index.html">AthleteBeyond</a></div>
+      <ul class="nav-list">
+	   <li><a href="about.html">About</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="beyond.html">BEYOND</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="opportunities.html">Opportunities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-content">
+      <h1>BEYOND</h1>
+      <p>Stories that define champions. Culture. Mindset. The grind.</p>
+    </div>
+  </section>
+
+  <!-- SERIES NAVIGATION -->
+  <section class="section" style="background-color: #f0ede8;">
+    <div class="container">
+      <h2 class="section-title">Explore Our Series</h2>
+      <div class="series-filter">
+        <button class="btn btn-primary" onclick="filterSeries('all')">All Stories</button>
+        <button class="btn btn-secondary" onclick="filterSeries('game')">Beyond the Game</button>
+        <button class="btn btn-secondary" onclick="filterSeries('mind')">Beyond the Mind</button>
+        <button class="btn btn-secondary" onclick="filterSeries('grind')">Beyond the Grind</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEYOND THE GAME SERIES -->
+  <section class="section" id="series-game">
+    <div class="container">
+      <div class="series-header">
+        <h3>Beyond the Game</h3>
+        <p>Athlete journeys, competition, performance, setbacks, and the wins that matter most.</p>
+      </div>
+      <div class="grid grid-2">
+        <!-- Story 1 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Game+1" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Game</span>
+            <h3 class="card-title">From Injury to Comeback</h3>
+            <p class="card-description">How one athlete turned a career-threatening injury into their greatest comeback story.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 2 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Game+2" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Game</span>
+            <h3 class="card-title">The Weight of Expectation</h3>
+            <p class="card-description">Living under pressure at the highest level. How elite athletes manage the mental game.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 3 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Game+3" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Game</span>
+            <h3 class="card-title">Championship Mindset</h3>
+            <p class="card-description">What separates champions from contenders. A deep dive into winning mentality.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 4 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Game+4" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Game</span>
+            <h3 class="card-title">Legacy Beyond Trophies</h3>
+            <p class="card-description">Elite athletes redefine success—building legacies that transcend their sport.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEYOND THE MIND SERIES -->
+  <section class="section" style="background-color: #f0ede8;" id="series-mind">
+    <div class="container">
+      <div class="series-header">
+        <h3>Beyond the Mind</h3>
+        <p>Mental strength, identity, pressure, resilience, and the psychology of elite performance.</p>
+      </div>
+      <div class="grid grid-2">
+        <!-- Story 1 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Mind+1" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Mind</span>
+            <h3 class="card-title">Mastering Mental Resilience</h3>
+            <p class="card-description">How the world's best athletes train their minds as hard as their bodies.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 2 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Mind+2" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Mind</span>
+            <h3 class="card-title">Identity Beyond Sport</h3>
+            <p class="card-description">Who am I when I'm not competing? Athletes exploring life beyond their discipline.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 3 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Mind+3" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Mind</span>
+            <h3 class="card-title">Dealing with Doubt</h3>
+            <p class="card-description">Even champions face self-doubt. Here's how they overcome it.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 4 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Mind+4" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Mind</span>
+            <h3 class="card-title">Mental Health in Elite Sport</h3>
+            <p class="card-description">Breaking the silence. Athletes speaking openly about mental wellness.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEYOND THE GRIND SERIES -->
+  <section class="section" id="series-grind">
+    <div class="container">
+      <div class="series-header">
+        <h3>Beyond the Grind</h3>
+        <p>Work ethic, routines, sacrifice, dedication, and the unseen effort behind excellence.</p>
+      </div>
+      <div class="grid grid-2">
+        <!-- Story 1 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Grind+1" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Grind</span>
+            <h3 class="card-title">A Day in the Life</h3>
+            <p class="card-description">What elite athletes actually do from 5am to bedtime. The real daily routine.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 2 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Grind+2" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Grind</span>
+            <h3 class="card-title">The Cost of Excellence</h3>
+            <p class="card-description">What athletes sacrifice to reach the top. The invisible price of greatness.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 3 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Grind+3" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Grind</span>
+            <h3 class="card-title">Training Like a Champion</h3>
+            <p class="card-description">Inside the coaching, conditioning, and preparation of world-class athletes.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+
+        <!-- Story 4 -->
+        <article class="card">
+          <img src="https://via.placeholder.com/600x400?text=Beyond+Grind+4" alt="Story" class="card-image">
+          <div class="card-content">
+            <span class="card-label">Beyond the Grind</span>
+            <h3 class="card-title">Discipline as Lifestyle</h3>
+            <p class="card-description">How discipline shapes not just performance, but character and success.</p>
+            <a href="#" class="btn btn-outline">Read Story →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>AthleteBeyond</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 1rem;">
+            Empowering athletes and building culture globally. Go Beyond.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-icon">f</a>
+            <a href="#" class="social-icon">𝕏</a>
+            <a href="#" class="social-icon">in</a>
+            <a href="#" class="social-icon">📷</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="beyond.html">BEYOND</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Opportunities</h4>
+          <ul>
+            <li><a href="opportunities.html#athletes">For Athletes</a></li>
+            <li><a href="opportunities.html#teams">For Teams & Brands</a></li>
+            <li><a href="opportunities.html#creators">For Creators</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#cookies">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AthleteBeyond. All rights reserved. | Go Beyond. 🌍</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
