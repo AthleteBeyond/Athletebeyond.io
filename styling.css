@@ -582,7 +582,27 @@ p {
 .hidden { display: none; }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content {
+    padding: 0 var(--spacer-sm);
+  }
+
+  .card-image {
+    height: 220px;
+  }
+
+  .athlete-image {
+    height: 220px;
+  }
+
+}{
   :root {
     --container-padding: var(--spacer-md);
     --font-size-3xl: 2rem;
@@ -609,26 +629,7 @@ p {
 }
 
 @media (max-width: 480px) 
- {
 
-  .nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-content {
-    padding: 0 var(--spacer-sm);
-  }
-
-  .card-image {
-    height: 220px;
-  }
-
-  .athlete-image {
-    height: 220px;
-  }
-
-}
  {
   :root {
     --font-size-3xl: 1.75rem;
