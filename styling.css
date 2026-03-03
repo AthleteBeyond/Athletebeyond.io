@@ -123,9 +123,10 @@ p {
 
 /* ===== CONTAINER & GRID ===== */
 .container {
-  max-width: var(--container-max);
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--container-padding);
+  padding: 0 20px;   /* Equal left & right spacing */
 }
 
 .grid {
