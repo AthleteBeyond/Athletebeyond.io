@@ -237,7 +237,7 @@ p {
   }
 {
   .nav-list {
-    gap: var(--spacer-md);
+    gap: var(--spacer-sm);
   }
   
   .nav-list a {
