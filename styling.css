@@ -186,7 +186,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacer-md) var(--container-padding);
+  padding: var(--spacer-sm) var(--container-padding);
   max-width: var(--container-max);
   margin: 0 auto;
 }
