@@ -198,6 +198,18 @@ p {
   color: var(--color-text-dark);
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 55px;
+}
+
 .nav-list {
   display: flex;
   list-style: none;
