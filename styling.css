@@ -241,6 +241,18 @@ p {
 }
     gap: var(--spacer-md);
   }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 55px;
+}
   
   .nav-list a {
     font-size: var(--font-size-xs);
