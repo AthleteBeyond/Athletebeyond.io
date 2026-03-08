@@ -627,7 +627,7 @@ p {
   }
   
   .nav {
-    padding: var(--spacer-xs);
+    padding: var(--spacer-md);
   }
   
   .nav-list {
