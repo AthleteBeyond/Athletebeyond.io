@@ -188,8 +188,7 @@ p {
   justify-content: space-between;
   padding: var(--spacer-md) var(--container-padding);
   max-width: var(--container-max);
-   padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
+   
 }
   margin: 0 auto;
 }
@@ -236,8 +235,7 @@ p {
 /* Mobile nav (hamburger support) */
 @media (max-width: 768px) {
   .nav-list {
-     padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
+    
 }
     gap: var(--spacer-md);
   }
