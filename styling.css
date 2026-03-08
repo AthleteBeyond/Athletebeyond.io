@@ -231,7 +231,8 @@ p {
 }
 
 /* Mobile nav (hamburger support) */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+ .nav-list {
  position: absolute;
     top: 70px;
     left: 0;
