@@ -236,9 +236,7 @@ p {
   .nav-list {
     gap: var(--spacer-md);   
   }
-.athlete-beyond-logo img {
-    max-width: 40%;
-}
+
   
   .nav-list a {
     font-size: var(--font-size-xs);
