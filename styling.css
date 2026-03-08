@@ -629,9 +629,7 @@ p {
     --font-size-xl: 1.25rem;
   }
   
-  .nav {
-    padding: var(--spacer-sm);
-  }
+ 
   
   .nav-list {
     flex-direction: column;
