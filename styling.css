@@ -234,9 +234,11 @@ p {
 /* Mobile nav (hamburger support) */
 @media (max-width: 768px) 
   .nav-list {
-    gap: var(--spacer-lg);
-     
+    gap: var(--spacer-md);   
   }
+.athlete-beyond-logo img {
+    max-width: 40%;
+}
   
   .nav-list a {
     font-size: var(--font-size-xs);
