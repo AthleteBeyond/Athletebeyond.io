@@ -196,7 +196,7 @@ p {
   font-size: var(--font-size-lg);
   font-weight: 700;
   color: var(--color-text-dark);
-   <img src="athlete-beyond-logo.png" style="width: 40%;" alt="Click me">
+
 }
 
 
@@ -234,7 +234,7 @@ p {
 /* Mobile nav (hamburger support) */
 @media (max-width: 768px) {
   .nav-list {
-    gap: var(--spacer-md);
+    gap: var(--spacer-lg);
   }
   
   .nav-list a {
