@@ -611,7 +611,7 @@ p {
   }
   
   .nav-list {
-    gap: var(--spacer-md);
+    gap: var(--spacer-sm);
   }
   
   .grid-2, .grid-3, .grid-4 {
