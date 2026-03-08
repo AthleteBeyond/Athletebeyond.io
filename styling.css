@@ -231,14 +231,10 @@ p {
 }
 
 /* Mobile nav (hamburger support) */
-@media (max-width: 768px) 
- .nav-list {
- 
-
+@media (max-width: 768px) {
+  .nav-list {
     gap: var(--spacer-md);
   }
-
-
   
   .nav-list a {
     font-size: var(--font-size-xs);
