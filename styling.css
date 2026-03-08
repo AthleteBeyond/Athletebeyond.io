@@ -233,7 +233,7 @@ p {
 
 /* Mobile nav (hamburger support) */
 @media (max-width: 768px)  .nav {
-    padding: var(--spacer-sm);
+    padding: var(--spacer-md);
   }
 {
   .nav-list {
@@ -607,11 +607,11 @@ p {
     padding: var(--spacer-2xl) var(--container-padding);
   }
     .nav {
-    padding: var(--spacer-sm);
+    padding: var(--spacer-md);
   }
   
   .nav-list {
-    gap: var(--spacer-sm);
+    gap: var(--spacer-md);
   }
   
   .grid-2, .grid-3, .grid-4 {
@@ -633,7 +633,7 @@ p {
   }
   
   .nav {
-    padding: var(--spacer-sm);
+    padding: var(--spacer-md);
   }
   
   .nav-list {
