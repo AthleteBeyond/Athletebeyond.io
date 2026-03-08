@@ -232,7 +232,7 @@ p {
 }
 
 /* Mobile nav (hamburger support) */
-@media (max-width: 768px) 
+@media (max-width: 768px) {
   .nav-list {
     gap: var(--spacer-md);   
   }
