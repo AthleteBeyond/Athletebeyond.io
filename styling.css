@@ -188,6 +188,9 @@ p {
   justify-content: space-between;
   padding: var(--spacer-md) var(--container-padding);
   max-width: var(--container-max);
+   padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
   margin: 0 auto;
 }
 
@@ -198,17 +201,7 @@ p {
   color: var(--color-text-dark);
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
-}
 
-.logo img {
-    height: 55px;
-}
 
 .nav-list {
   display: flex;
