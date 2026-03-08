@@ -607,7 +607,7 @@ p {
     padding: var(--spacer-2xl) var(--container-padding);
   }
     .nav {
-    padding: var(--spacer-md);
+    padding: var(--spacer-sm);
   }
   
   .nav-list {
@@ -633,7 +633,7 @@ p {
   }
   
   .nav {
-    padding: var(--spacer-md);
+    padding: var(--spacer-sm);
   }
   
   .nav-list {
