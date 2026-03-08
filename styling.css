@@ -232,10 +232,10 @@ p {
 }
 
 /* Mobile nav (hamburger support) */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
   .nav-list {
-    gap: var(--spacer-md);
-     padding: 15px 20px
+    gap: var(--spacer-lg);
+     
   }
   
   .nav-list a {
