@@ -240,7 +240,7 @@ p {
 {
   .nav-list {
     gap: var(--spacer-sm);
-     margin-top: 15px;
+    
   }
   
   .nav-list a {
