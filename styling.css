@@ -234,6 +234,8 @@ p {
 /* Mobile nav (hamburger support) */
 @media (max-width: 768px)  .nav {
     padding: var(--spacer-md);
+   border-bottom: 1px solid #ccc;
+       padding-bottom: 15px
   }
 {
   .nav-list {
