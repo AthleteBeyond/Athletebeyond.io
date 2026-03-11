@@ -608,7 +608,10 @@ p {
   }
     .nav {
     padding: var(--spacer-md);
+       border-bottom: 1px solid #ccc;
+       padding-bottom: 15px
   }
+   
   
   .nav-list {
     gap: var(--spacer-md);
