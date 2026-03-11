@@ -177,6 +177,7 @@ p {
 .header {
   background-color: var(--color-bg-light);
   border-bottom: 1px solid var(--color-border);
+   padding-bottom: 15px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -235,11 +236,12 @@ p {
 @media (max-width: 768px)  .nav {
     padding: var(--spacer-md);
    border-bottom: 1px solid #ccc;
-       padding-bottom: 15px
+       padding-bottom: 15px;
   }
 {
   .nav-list {
     gap: var(--spacer-sm);
+     margin-top: 15px;
   }
   
   .nav-list a {
@@ -611,7 +613,7 @@ p {
     .nav {
     padding: var(--spacer-md);
        border-bottom: 1px solid #ccc;
-       padding-bottom: 15px
+       padding-bottom: 15px;
   }
    
   
